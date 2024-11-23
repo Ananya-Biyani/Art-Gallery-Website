@@ -7,6 +7,7 @@
 
 
 
+
 section{
     width: 100%;
     height: 100vh;
@@ -88,7 +89,8 @@ section .main{
 section .main .men_text h1{
    
     font-size: 40px;
-    margin-left: 15px;
+   
+     margin-left: 15px;
     margin-top: 20px;
    
 }
@@ -103,8 +105,10 @@ section .main .men_text h1 span{
 }
 
 section .main .men_text h2{
-    font-size: 20px;
-    margin-left: 15px;
+   
+
+     font-size: 20px;
+  margin-left: 15px;
     line-height: 22px;
     color: #f10c0c;
     
@@ -771,7 +775,10 @@ section .main_btn:hover i{
     transition: 0.4s;
 }
 
-
+.team .team_box .profile:hover{
+    border-radius: 20px;
+    height: 320px;
+}
 
 .team .team_box .profile img{
     width: 250px;
@@ -785,10 +792,7 @@ section .main_btn:hover i{
     transition: 0.4s;
 }
 
-.team .team_box .profile:hover{
-    border-radius: 20px;
-    height: 320px;
-}
+
 
 .team .team_box .profile:hover img{
     border-radius: 20px;
@@ -800,6 +804,10 @@ section .main_btn:hover i{
     text-align: center;
     top: 25%;
     transition: 0.4s;
+}
+
+.team .team_box .profile:hover .info{
+    top: 60%;
 }
 .team .team_box .profile .info .name{
     color: #fac031;
@@ -944,7 +952,7 @@ footer .end span{
     
     
     section .main .main_image img{
-        width: 100%;
+       
        
         top:100px;
     }
